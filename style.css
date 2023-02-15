@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigasi {
+    /* background-color: #EAF6F6; */
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url(img/mark.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: gainsboro;
+}
+
+span {
+    color: cadetblue;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+.h1-1 {
+    color: blueviolet;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+.h3-1 { 
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.h4-1 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.ringkasan {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.ringkasan img {
+    height: auto;
+    width: 430px;
+}
+
+.ringkasan-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ringkasan-text h2 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.ringkasan-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.ringkasan-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.pendidikan {
+    width: 100%;
+    height: 290px;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2-2 {
+    color: white;
+    font-size: 55px;
+}
+
+ul li {
+    color: #fcfc;
+    font-size: 18px;
+}
+
+.pengalaman {
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2-3 {
+    color: white;
+    font-size: 55px;
+}
+
+.p-1 {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: center;
+    justify-content: center;
+}
+
+.project {
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    height: 200px;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
